@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Brain Age</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="text-align:center">Find Your True Brain Age!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h4 style="text-align:center">Plus Minus 6 years</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-2 col-md-offset-0 col-xs-offset-2">
+                    <h2 style="text-align:center">Example Brain MRI</h2>
+                    <img class="img-responsive" src="img/brain_front.png">
+                </div>
+                <div class="col-md-4 col-md-offset-4 col-xs-2 col-xs-offset-4">
+                    <h2 style="text-align:center">Learning Algorithm</h2>
+                    <img class="img-responsive" src="img/bayesianRidge_poly.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-2 col-md-offset-0 col-xs-offset-2">
+                    <h2 style="text-align:center">Example Grey Map Atlas</h2>
+                    <img class="img-responsive" src="img/brain_greyMap.png">
+                </div>
+                <div class="col-md-4 col-md-offset-4 col-xs-2 col-xs-offset-4">
+                    <h2 style="text-align:center">Learning Algorithm</h2>
+                    <img class="img-responsive" src="img/Ridge_Anistropic.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
+                    <form name="brainForm">
+                        Name: <input type="text" name="name"><br>
+                        Brain Scan: <input type="file" name="brain"><br>
+                        <input type="submit" value="Submit" onclick="return submitImage()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/imageSubmission.js"></script>
+</html>
