@@ -1,4 +1,9 @@
-
+var submit = {
+  "name" : "None",
+  "image" : "http://via.placeholder.com/350x150",
+  "imageType" : "Uni Id",
+  "imageDetails" : ["jpg", "01/10/14", "Now"]
+}
 
 displaySubmit();
 
